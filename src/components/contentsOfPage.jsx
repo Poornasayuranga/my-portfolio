@@ -68,7 +68,7 @@ function Hero() {
           <div className="relative">
             <div className="absolute inset-x-8 bottom-6 top-10 rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-cyan-400 blur-3xl opacity-40 animate-pulse" />
             <img
-              src="/profile.png"
+              src="/profile_26.png"
               alt="Poorna Sayuranga"
               className="relative w-72 md:w-96 h-auto object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.45)] animate-float"
             />
