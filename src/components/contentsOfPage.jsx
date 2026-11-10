@@ -66,11 +66,13 @@ function Hero() {
         {/* Profile image */}
         <div className="order-1 md:order-2 flex justify-center animate-fade-up" style={{ animationDelay: "0.15s" }}>
           <div className="relative">
-            <div className="absolute inset-x-8 bottom-6 top-10 rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-cyan-400 blur-3xl opacity-40 animate-pulse" />
+            {/* Lighter background pulse */}
+            <div className="absolute inset-x-8 bottom-6 top-10 rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-cyan-400 blur-3xl opacity-20 animate-pulse" />
+            {/* New profile image with a slight brightness boost */}
             <img
               src="/profile_26.png"
               alt="Poorna Sayuranga"
-              className="relative w-72 md:w-96 h-auto object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.45)] animate-float"
+              className="relative w-72 md:w-96 h-auto object-contain brightness-110 drop-shadow-[0_30px_40px_rgba(0,0,0,0.45)] animate-float"
             />
           </div>
         </div>
